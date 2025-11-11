@@ -11,6 +11,15 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+## Try the Battle (Lab 5)
+
+After starting the app, open the page and you'll see "Simple Battle (Lab 5)". Use the "Strike" button to play a single round — each press makes both combatants exchange hits. Use "Reset" to restart the fight.
+
+Files added:
+- `src/Battle.js` — main battle UI and logic (uses React useState)
+- `src/Opponent.js` — small component rendering opponent data and image
+
+
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 

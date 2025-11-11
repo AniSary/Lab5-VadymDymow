@@ -24,6 +24,42 @@
   color: white;
 }
 
+.battle {
+  max-width: 760px;
+  width: 90%;
+  margin: 1rem auto;
+  text-align: left;
+}
+
+.combatants {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.player, .opponent-info {
+  background: rgba(255,255,255,0.06);
+  padding: 0.6rem;
+  border-radius: 6px;
+}
+
+.opponent-image {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-right: 0.5rem;
+}
+
+.opponent {
+  display: flex;
+  align-items: center;
+}
+
+.controls { margin-top: 1rem }
+.controls button { margin-right: 0.5rem }
+
+.log { margin-top: 1rem }
+
 .App-link {
   color: #61dafb;
 }
